@@ -1,6 +1,9 @@
 # node-asin-queue
 
 Lookup multiple Amazon ASINs within a queue.
+This module allows to lookup up to 20 ASINs in one second
+without exceeding the 1-request-per-second rule from the
+Amazon Product API.
 
 ## Usage
 
